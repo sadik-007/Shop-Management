@@ -78,6 +78,12 @@
     <Compile Include="Reset.Designer.cs">
       <DependentUpon>Reset.cs</DependentUpon>
     </Compile>
+    <Compile Include="SalesmanLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesmanLog.Designer.cs">
+      <DependentUpon>SalesmanLog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Starting.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -116,17 +116,17 @@ namespace ProjectPP
 
         private void adminLoginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenLoginForm("Admin");
+            
         }
 
         private void salesmanLoginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenLoginForm("Salesman");
+            
         }
 
         private void dealerLoginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenLoginForm("Dealer");
+            
         }
 
         private void OpenLoginForm(string role)

@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace ProjectPP
 {
-    public partial class DealerLogin: Form
+    public partial class DealerRegistration: Form
     {
-        public DealerLogin()
+        public DealerRegistration()
         {
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void lblConfirmPassword_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnLogIn_Click(object sender, EventArgs e)
+        private void lblAge_Click(object sender, EventArgs e)
         {
 
         }

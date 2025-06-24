@@ -54,3 +54,6 @@ C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\Proje
 C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.csproj.CoreCompileInputs.cache
 C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.exe
 C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.pdb
+C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.DealerLogin.resources
+C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.DealerRegistration.resources
+C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.DealerReset.resources

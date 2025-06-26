@@ -13,14 +13,24 @@ namespace ProjectPP
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        private string _userRole;
+
+        public Form1(string userRole = "Customer")
         {
             InitializeComponent();
+            _userRole = userRole;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // You can add any code here that needs to run when the form first opens.
+            this.Text = _userRole + " Log In";
+            this.label1.Text = _userRole + " Log In";
+
+            if (_userRole != "Customer")
+            {
+                linkLabel1.Visible = false;
+                linkLabel2.Visible = false;
+            }
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -39,63 +49,90 @@ namespace ProjectPP
 
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            // --- 1. Get user input and perform basic validation ---
-            string username = richTextBox1.Text;
-            string password = richTextBox2.Text;
+            string username = txtUserName.Text;
+            string password = txtPassword.Text;
 
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Please enter both username and password.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return; // Stop further execution
+                return;
             }
 
-            // --- 2. Define the connection string with YOUR server details ---
-            string connectionString = @"Server=SADIK\SQLEXPRESS;Database=Practice Database;Trusted_Connection=True;";
+            string tableName = "";
+            switch (_userRole)
+            {
+                case "Customer":
+                    tableName = "Customer";
+                    break;
+                case "Admin":
+                    tableName = "Admins";
+                    break;
+                case "Salesman":
+                    tableName = "Salesmen";
+                    break;
+                case "Dealer":
+                    tableName = "Dealers";
+                    break;
+                default:
+                    MessageBox.Show("Invalid user role specified.", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+            }
 
-            // --- 3. Use a try-catch block for database operations ---
+            string connectionString = @"Server=SADIK\SQLEXPRESS;Database=Practice Database;Trusted_Connection=True;";
             try
             {
-                // The 'using' statement ensures the connection is automatically closed even if errors occur.
                 using (SqlConnection sqlCon = new SqlConnection(connectionString))
                 {
                     sqlCon.Open();
-
-                    // --- 4. Create a SECURE parameterized query with CORRECT column names ---
-                    // Using "User_Name" as you specified.
-                    string query = "SELECT COUNT(1) FROM Customer WHERE User_Name=@Username AND Password=@Password";
+                    string query = $"SELECT COUNT(1) FROM {tableName} WHERE User_Name=@Username AND Password=@Password";
 
                     using (SqlCommand sqlCmd = new SqlCommand(query, sqlCon))
                     {
-                        // Add parameters to the command
                         sqlCmd.Parameters.AddWithValue("@Username", username);
                         sqlCmd.Parameters.AddWithValue("@Password", password);
-
-                        // --- 5. Execute the query and get the result ---
                         int count = Convert.ToInt32(sqlCmd.ExecuteScalar());
 
-                        // --- 6. Check if the user was found ---
                         if (count == 1)
                         {
-                            MessageBox.Show("Login Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            // TODO: Open the main application form here
+                            MessageBox.Show(_userRole + " Login Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                         else
                         {
-                            MessageBox.Show("Invalid Username or Password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("Invalid Username or Password for this role.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                 }
             }
             catch (Exception ex)
             {
-                // Catch and display any exceptions during the process
-                MessageBox.Show("An error occurred: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("A database error occurred: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void btnShowHidePassword_Click(object sender, EventArgs e)
         {
+            txtPassword.UseSystemPasswordChar = !txtPassword.UseSystemPasswordChar;
+        }
 
+        // --- NEW METHOD FOR THE "BACK TO HOMEPAGE" LINK ---
+        private void linkBackToHome_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Find the existing Starting page that is hidden
+            Starting startingForm = Application.OpenForms.OfType<Starting>().FirstOrDefault();
+
+            // If we found it, show it. Otherwise, create a new one as a backup.
+            if (startingForm != null)
+            {
+                startingForm.Show();
+            }
+            else
+            {
+                startingForm = new Starting();
+                startingForm.Show();
+            }
+
+            // Close the current login form
+            this.Close();
         }
     }
 }

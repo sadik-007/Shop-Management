@@ -1,5 +1,43 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\shop-management\\shop-management-system\\projectpp\\salesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\shop-management\\shop-management-system\\projectpp\\salesmanlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\shop-management\\shop-management-system\\projectpp\\starting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\starting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\shop-management\\shop-management-system\\projectpp\\starting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\starting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\shop-management\\shop-management-system\\projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\projectpp\\dealerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\dealerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\projectpp\\dealerreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\dealerreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\projectpp\\dealerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\dealerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
   "WorkspaceRootPath": "D:\\C# Code\\Shop-Management\\Shop-Management-System\\",
   "Documents": [
     {
@@ -80,6 +118,7 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|D:\\C# Code\\Shop-Management\\Shop-Management-System\\projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 526eb52092a67e3e388c2a13ca9fd8a887597b4d
       "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,9 +129,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
+<<<<<<< HEAD
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesRegistration.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\SalesRegistration.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\SalesRegistration.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\SalesRegistration.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\SalesRegistration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:46:43.318Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesmanLog.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\SalesmanLog.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\SalesmanLog.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\SalesmanLog.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\SalesmanLog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:40:57.244Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Starting.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\Starting.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\Starting.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\Starting.cs",
+              "RelativeToolTip": "ProjectPP\\Starting.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:39:32.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Starting.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\Starting.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\Starting.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\Starting.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\Starting.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:39:14.882Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DealerRegistration.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\DealerRegistration.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\DealerRegistration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T21:09:22.869Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DealerReset.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerReset.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\DealerReset.cs",
+              "ToolTip": "C:\\Users\\Nahid\\Documents\\New folder\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerReset.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Nahid\\Documents\\New folder\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerReset.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T21:21:44.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DealerLogin.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerLogin.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\DealerLogin.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerLogin.cs",
+              "RelativeToolTip": "ProjectPP\\DealerLogin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T21:39:09.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DealerRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\DealerRegistration.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs",
+              "RelativeToolTip": "ProjectPP\\DealerRegistration.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T21:46:38.54Z",
+=======
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Starting.cs",
@@ -161,11 +296,35 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T19:54:39.355Z",
+>>>>>>> 526eb52092a67e3e388c2a13ca9fd8a887597b4d
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 7,
+<<<<<<< HEAD
+              "Title": "DealerLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerLogin.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\DealerLogin.cs",
+              "ToolTip": "C:\\Users\\Nahid\\Documents\\New folder\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerLogin.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Nahid\\Documents\\New folder\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerLogin.cs [Design]",
+=======
+              "Title": "ProductEntry.cs [Design]",
+              "DocumentMoniker": "D:\\C# Code\\Shop-Management\\Shop-Management-System\\ProjectPP\\ProductEntry.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\ProductEntry.cs",
+              "ToolTip": "D:\\C# Code\\Shop-Management\\Shop-Management-System\\ProjectPP\\ProductEntry.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\ProductEntry.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:49:04.751Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> c416d19a91ca31369749049fd7289f8edf81db74
               "Title": "Starting.cs [Design]",
               "DocumentMoniker": "D:\\C# Code\\Shop-Management\\Shop-Management-System\\ProjectPP\\Starting.cs",
               "RelativeDocumentMoniker": "ProjectPP\\Starting.cs",
@@ -319,6 +478,7 @@
               "DocumentMoniker": "D:\\C# Code\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerLogin.cs",
               "RelativeDocumentMoniker": "ProjectPP\\DealerLogin.cs",
               "ToolTip": "C:\\Users\\Nahid\\Documents\\New folder\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerLogin.cs [Design]",
+>>>>>>> 526eb52092a67e3e388c2a13ca9fd8a887597b4d
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T17:34:25.835Z"
             }

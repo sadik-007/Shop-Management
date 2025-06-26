@@ -75,3 +75,4 @@ D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.
 D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.csproj.CoreCompileInputs.cache
 D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.exe
 D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.pdb
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.ProductEntry.resources

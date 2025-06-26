@@ -52,6 +52,12 @@
     <Compile Include="AdminLog.Designer.cs">
       <DependentUpon>AdminLog.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomerHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerHomePage.Designer.cs">
+      <DependentUpon>CustomerHomePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="DealerLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     <Compile Include="Starting.Designer.cs">
       <DependentUpon>Starting.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CustomerHomePage.resx">
+      <DependentUpon>CustomerHomePage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DealerLogin.resx">
       <DependentUpon>DealerLogin.cs</DependentUpon>
     </EmbeddedResource>

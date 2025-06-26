@@ -16,7 +16,7 @@
         private void InitializeComponent()
         {
             this.pnlMain = new System.Windows.Forms.Panel();
-            this.linkBackToHome = new System.Windows.Forms.LinkLabel(); // <-- NEW LINK
+            this.linkBackToHome = new System.Windows.Forms.LinkLabel();
             this.btnShowHidePassword = new System.Windows.Forms.Button();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -33,7 +33,7 @@
             // 
             this.pnlMain.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlMain.BackColor = System.Drawing.Color.White;
-            this.pnlMain.Controls.Add(this.linkBackToHome); // <-- ADDED TO PANEL
+            this.pnlMain.Controls.Add(this.linkBackToHome);
             this.pnlMain.Controls.Add(this.btnShowHidePassword);
             this.pnlMain.Controls.Add(this.linkLabel2);
             this.pnlMain.Controls.Add(this.linkLabel1);
@@ -56,7 +56,7 @@
             this.linkBackToHome.LinkColor = System.Drawing.Color.Gray;
             this.linkBackToHome.Location = new System.Drawing.Point(175, 515);
             this.linkBackToHome.Name = "linkBackToHome";
-            this.linkBackToHome.Size = new System.Drawing.Size(157, 23);
+            this.linkBackToHome.Size = new System.Drawing.Size(155, 23);
             this.linkBackToHome.TabIndex = 7;
             this.linkBackToHome.TabStop = true;
             this.linkBackToHome.Text = "Back to Homepage";
@@ -84,7 +84,7 @@
             this.linkLabel2.LinkColor = System.Drawing.Color.DodgerBlue;
             this.linkLabel2.Location = new System.Drawing.Point(289, 440);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(161, 23);
+            this.linkLabel2.Size = new System.Drawing.Size(167, 23);
             this.linkLabel2.TabIndex = 6;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Don\'t have account?";
@@ -98,7 +98,7 @@
             this.linkLabel1.LinkColor = System.Drawing.Color.DodgerBlue;
             this.linkLabel1.Location = new System.Drawing.Point(50, 440);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(133, 23);
+            this.linkLabel1.Size = new System.Drawing.Size(134, 23);
             this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forget Password";
@@ -148,6 +148,7 @@
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(396, 34);
             this.txtUserName.TabIndex = 1;
+            this.txtUserName.TextChanged += new System.EventHandler(this.txtUserName_TextChanged);
             // 
             // LbUname
             // 
@@ -185,6 +186,7 @@
             this.pnlMain.ResumeLayout(false);
             this.pnlMain.PerformLayout();
             this.ResumeLayout(false);
+
         }
         #endregion
 

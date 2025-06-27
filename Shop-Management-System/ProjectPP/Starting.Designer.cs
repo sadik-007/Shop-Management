@@ -3,6 +3,7 @@
     partial class Starting
     {
         private System.ComponentModel.IContainer components = null;
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -16,29 +17,26 @@
         private void InitializeComponent()
         {
             this.pnlHeader = new System.Windows.Forms.Panel();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.lblShopName = new System.Windows.Forms.Label();
-            this.menuStripMain = new System.Windows.Forms.MenuStrip();
-            this.computerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.watchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.phoneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tabletToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cameraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tvToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.customerLoginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.adminLoginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salesmanLoginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dealerLoginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlBody = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnlCategories = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnComputer = new System.Windows.Forms.Button();
+            this.btnWatch = new System.Windows.Forms.Button();
+            this.btnPhone = new System.Windows.Forms.Button();
+            this.btnTablet = new System.Windows.Forms.Button();
+            this.btnCamera = new System.Windows.Forms.Button();
+            this.btnTV = new System.Windows.Forms.Button();
             this.pnlHeader.SuspendLayout();
-            this.menuStripMain.SuspendLayout();
+            this.pnlCategories.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlHeader
             // 
             this.pnlHeader.BackColor = System.Drawing.Color.White;
+            this.pnlHeader.Controls.Add(this.btnLogin);
             this.pnlHeader.Controls.Add(this.btnSearch);
             this.pnlHeader.Controls.Add(this.txtSearch);
             this.pnlHeader.Controls.Add(this.lblShopName);
@@ -47,6 +45,22 @@
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Size = new System.Drawing.Size(1282, 80);
             this.pnlHeader.TabIndex = 0;
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(123)))), ((int)(((byte)(255)))));
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold);
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.Location = new System.Drawing.Point(1125, 20);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(125, 40);
+            this.btnLogin.TabIndex = 3;
+            this.btnLogin.Text = "Log In";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnSearch
             // 
@@ -86,6 +100,7 @@
             this.lblShopName.TabIndex = 0;
             this.lblShopName.Text = "Tech Hub";
             // 
+<<<<<<< HEAD
             // menuStripMain
             // 
             this.menuStripMain.BackColor = System.Drawing.Color.White;
@@ -193,15 +208,117 @@
             this.dealerLoginToolStripMenuItem.Text = "🤝 Dealer Login";
             this.dealerLoginToolStripMenuItem.Click += new System.EventHandler(this.dealerLoginToolStripMenuItem_Click);
             // 
+=======
+>>>>>>> 8bbd8768ba6ebebbf8082d60147ab9018198fd60
             // pnlBody
             // 
             this.pnlBody.AutoScroll = true;
             this.pnlBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlBody.Location = new System.Drawing.Point(0, 113);
+            this.pnlBody.Location = new System.Drawing.Point(0, 130);
             this.pnlBody.Name = "pnlBody";
             this.pnlBody.Padding = new System.Windows.Forms.Padding(20);
-            this.pnlBody.Size = new System.Drawing.Size(1282, 590);
+            this.pnlBody.Size = new System.Drawing.Size(1282, 573);
             this.pnlBody.TabIndex = 2;
+            // 
+            // pnlCategories
+            // 
+            this.pnlCategories.BackColor = System.Drawing.Color.White;
+            this.pnlCategories.Controls.Add(this.btnComputer);
+            this.pnlCategories.Controls.Add(this.btnWatch);
+            this.pnlCategories.Controls.Add(this.btnPhone);
+            this.pnlCategories.Controls.Add(this.btnTablet);
+            this.pnlCategories.Controls.Add(this.btnCamera);
+            this.pnlCategories.Controls.Add(this.btnTV);
+            this.pnlCategories.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlCategories.Location = new System.Drawing.Point(0, 80);
+            this.pnlCategories.Name = "pnlCategories";
+            this.pnlCategories.Padding = new System.Windows.Forms.Padding(25, 6, 20, 5);
+            this.pnlCategories.Size = new System.Drawing.Size(1282, 50);
+            this.pnlCategories.TabIndex = 3;
+            // 
+            // btnComputer
+            // 
+            this.btnComputer.FlatAppearance.BorderSize = 0;
+            this.btnComputer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComputer.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.btnComputer.Location = new System.Drawing.Point(30, 9);
+            this.btnComputer.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.btnComputer.Name = "btnComputer";
+            this.btnComputer.Size = new System.Drawing.Size(95, 35);
+            this.btnComputer.TabIndex = 0;
+            this.btnComputer.Text = "Computer";
+            this.btnComputer.UseVisualStyleBackColor = true;
+            this.btnComputer.Click += new System.EventHandler(this.CategoryButton_Click);
+            // 
+            // btnWatch
+            // 
+            this.btnWatch.FlatAppearance.BorderSize = 0;
+            this.btnWatch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWatch.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.btnWatch.Location = new System.Drawing.Point(135, 9);
+            this.btnWatch.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.btnWatch.Name = "btnWatch";
+            this.btnWatch.Size = new System.Drawing.Size(89, 35);
+            this.btnWatch.TabIndex = 1;
+            this.btnWatch.Text = "Watch";
+            this.btnWatch.UseVisualStyleBackColor = true;
+            this.btnWatch.Click += new System.EventHandler(this.CategoryButton_Click);
+            // 
+            // btnPhone
+            // 
+            this.btnPhone.FlatAppearance.BorderSize = 0;
+            this.btnPhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPhone.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.btnPhone.Location = new System.Drawing.Point(234, 9);
+            this.btnPhone.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.btnPhone.Name = "btnPhone";
+            this.btnPhone.Size = new System.Drawing.Size(79, 35);
+            this.btnPhone.TabIndex = 2;
+            this.btnPhone.Text = "Phone";
+            this.btnPhone.UseVisualStyleBackColor = true;
+            this.btnPhone.Click += new System.EventHandler(this.CategoryButton_Click);
+            // 
+            // btnTablet
+            // 
+            this.btnTablet.FlatAppearance.BorderSize = 0;
+            this.btnTablet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTablet.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.btnTablet.Location = new System.Drawing.Point(323, 9);
+            this.btnTablet.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.btnTablet.Name = "btnTablet";
+            this.btnTablet.Size = new System.Drawing.Size(86, 35);
+            this.btnTablet.TabIndex = 3;
+            this.btnTablet.Text = "Tablet";
+            this.btnTablet.UseVisualStyleBackColor = true;
+            this.btnTablet.Click += new System.EventHandler(this.CategoryButton_Click);
+            // 
+            // btnCamera
+            // 
+            this.btnCamera.FlatAppearance.BorderSize = 0;
+            this.btnCamera.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCamera.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.btnCamera.Location = new System.Drawing.Point(419, 9);
+            this.btnCamera.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.btnCamera.Name = "btnCamera";
+            this.btnCamera.Size = new System.Drawing.Size(85, 35);
+            this.btnCamera.TabIndex = 4;
+            this.btnCamera.Text = "Camera";
+            this.btnCamera.UseVisualStyleBackColor = true;
+            this.btnCamera.Click += new System.EventHandler(this.CategoryButton_Click);
+            // 
+            // btnTV
+            // 
+            this.btnTV.FlatAppearance.BorderSize = 0;
+            this.btnTV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTV.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.btnTV.Location = new System.Drawing.Point(514, 9);
+            this.btnTV.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.btnTV.Name = "btnTV";
+            this.btnTV.Size = new System.Drawing.Size(56, 35);
+            this.btnTV.TabIndex = 5;
+            this.btnTV.Text = "TV";
+            this.btnTV.UseVisualStyleBackColor = true;
+            this.btnTV.Click += new System.EventHandler(this.CategoryButton_Click);
             // 
             // Starting
             // 
@@ -210,20 +327,21 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(1282, 703);
             this.Controls.Add(this.pnlBody);
-            this.Controls.Add(this.menuStripMain);
+            this.Controls.Add(this.pnlCategories);
             this.Controls.Add(this.pnlHeader);
-            this.MainMenuStrip = this.menuStripMain;
             this.Name = "Starting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tech Hub - Home";
             this.Load += new System.EventHandler(this.Starting_Load);
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
-            this.menuStripMain.ResumeLayout(false);
-            this.menuStripMain.PerformLayout();
+            this.pnlCategories.ResumeLayout(false);
             this.ResumeLayout(false);
+<<<<<<< HEAD
             this.PerformLayout();
 
+=======
+>>>>>>> 8bbd8768ba6ebebbf8082d60147ab9018198fd60
         }
         #endregion
 
@@ -231,18 +349,14 @@
         private System.Windows.Forms.Label lblShopName;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.MenuStrip menuStripMain;
-        private System.Windows.Forms.ToolStripMenuItem computerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem watchToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem phoneToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tabletToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cameraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tvToolStripMenuItem;
         private System.Windows.Forms.FlowLayoutPanel pnlBody;
-        private System.Windows.Forms.ToolStripMenuItem loginToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem customerLoginToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem adminLoginToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem salesmanLoginToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dealerLoginToolStripMenuItem;
+        private System.Windows.Forms.FlowLayoutPanel pnlCategories;
+        private System.Windows.Forms.Button btnComputer;
+        private System.Windows.Forms.Button btnWatch;
+        private System.Windows.Forms.Button btnPhone;
+        private System.Windows.Forms.Button btnTablet;
+        private System.Windows.Forms.Button btnCamera;
+        private System.Windows.Forms.Button btnTV;
+        private System.Windows.Forms.Button btnLogin;
     }
 }

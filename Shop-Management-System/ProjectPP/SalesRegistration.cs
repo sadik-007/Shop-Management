@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjectPP
 {
-    public partial class DealerLogin: Form
+    public partial class SalesRegistration : Form
     {
-        public DealerLogin()
+        public SalesRegistration()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnLogIn_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

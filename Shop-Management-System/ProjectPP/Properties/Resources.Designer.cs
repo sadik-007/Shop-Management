@@ -63,9 +63,15 @@ namespace ProjectPP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap _360_F_276959928_MzW1FMER5GDM51fsFgmzjcWHzTeP5UYI {
             get {
                 object obj = ResourceManager.GetObject("360_F_276959928_MzW1FMER5GDM51fsFgmzjcWHzTeP5UYI", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap licensed_image {
+            get {
+                object obj = ResourceManager.GetObject("licensed-image", resourceCulture);
+>>>>>>> 8bbd8768ba6ebebbf8082d60147ab9018198fd60
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +79,15 @@ namespace ProjectPP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap _360_F_303116781_NH1kEe07K7XLNYksNMF3jqP8QLsh6ucJ {
             get {
                 object obj = ResourceManager.GetObject("360_F_303116781_NH1kEe07K7XLNYksNMF3jqP8QLsh6ucJ", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap New_blog_graphic_16 {
+            get {
+                object obj = ResourceManager.GetObject("New-blog-graphic-16", resourceCulture);
+>>>>>>> 8bbd8768ba6ebebbf8082d60147ab9018198fd60
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +95,15 @@ namespace ProjectPP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap c8f7bdd3e52c315dafb9641f92672498 {
             get {
                 object obj = ResourceManager.GetObject("c8f7bdd3e52c315dafb9641f92672498", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap New_blog_graphic_161 {
+            get {
+                object obj = ResourceManager.GetObject("New-blog-graphic-161", resourceCulture);
+>>>>>>> 8bbd8768ba6ebebbf8082d60147ab9018198fd60
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +111,15 @@ namespace ProjectPP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap gradient_prism_database_mn7r5oitvwwid6yg {
             get {
                 object obj = ResourceManager.GetObject("gradient-prism-database-mn7r5oitvwwid6yg", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap New_blog_graphic_162 {
+            get {
+                object obj = ResourceManager.GetObject("New-blog-graphic-162", resourceCulture);
+>>>>>>> 8bbd8768ba6ebebbf8082d60147ab9018198fd60
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,6 +127,7 @@ namespace ProjectPP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap HD_wallpaper_dark_blue_windows_10_logo_background_windows_10 {
             get {
                 object obj = ResourceManager.GetObject("HD-wallpaper-dark-blue-windows-10-logo-background-windows-10", resourceCulture);
@@ -227,6 +252,11 @@ namespace ProjectPP.Properties {
         internal static System.Drawing.Bitmap WhatsApp_Image_2025_06_18_at_22_57_21_e144fbd9 {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2025-06-18 at 22.57.21_e144fbd9", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap pngtree_reset_password_to_gain_more_secure_account_png_image_8920326 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-reset-password-to-gain-more-secure-account-png-image_8920326", resourceCulture);
+>>>>>>> 8bbd8768ba6ebebbf8082d60147ab9018198fd60
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

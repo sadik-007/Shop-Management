@@ -54,6 +54,7 @@ C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\Proje
 C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.csproj.CoreCompileInputs.cache
 C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.exe
 C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.pdb
+<<<<<<< HEAD
 F:\Semester\6th Semester\C# Lab\pain\Shop-Management\Shop-Management-System\ProjectPP\bin\Debug\ProjectPP.exe.config
 F:\Semester\6th Semester\C# Lab\pain\Shop-Management\Shop-Management-System\ProjectPP\bin\Debug\ProjectPP.exe
 F:\Semester\6th Semester\C# Lab\pain\Shop-Management\Shop-Management-System\ProjectPP\bin\Debug\ProjectPP.pdb
@@ -74,3 +75,28 @@ F:\Semester\6th Semester\C# Lab\pain\Shop-Management\Shop-Management-System\Proj
 F:\Semester\6th Semester\C# Lab\pain\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.Admorder.resources
 F:\Semester\6th Semester\C# Lab\pain\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.admwork.resources
 F:\Semester\6th Semester\C# Lab\pain\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.exe.config
+=======
+C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.DealerLogin.resources
+C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.DealerRegistration.resources
+C:\Users\Nahid\Documents\New folder\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.DealerReset.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\bin\Debug\ProjectPP.exe.config
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\bin\Debug\ProjectPP.exe
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\bin\Debug\ProjectPP.pdb
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.csproj.AssemblyReference.cache
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.exe.config
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.DealerLogin.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.DealerRegistration.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.DealerReset.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.Form1.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.Form2.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.NewPass.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.Properties.Resources.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.Reset.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.Starting.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.csproj.GenerateResource.cache
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.csproj.CoreCompileInputs.cache
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.exe
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.pdb
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.ProductEntry.resources
+D:\C# Code\Shop-Management\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.CustomerHomePage.resources
+>>>>>>> 8bbd8768ba6ebebbf8082d60147ab9018198fd60

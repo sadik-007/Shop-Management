@@ -52,6 +52,30 @@
     <Compile Include="AdminLog.Designer.cs">
       <DependentUpon>AdminLog.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admorder.Designer.cs">
+      <DependentUpon>Admorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admreg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admreg.Designer.cs">
+      <DependentUpon>admreg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admresetpass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admresetpass.Designer.cs">
+      <DependentUpon>Admresetpass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admwork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admwork.Designer.cs">
+      <DependentUpon>admwork.cs</DependentUpon>
+    </Compile>
     <Compile Include="DealerLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +120,21 @@
     <Compile Include="Starting.Designer.cs">
       <DependentUpon>Starting.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminLog.resx">
+      <DependentUpon>AdminLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admorder.resx">
+      <DependentUpon>Admorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admreg.resx">
+      <DependentUpon>admreg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admresetpass.resx">
+      <DependentUpon>Admresetpass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admwork.resx">
+      <DependentUpon>admwork.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,6 +152,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Reset.resx">
       <DependentUpon>Reset.cs</DependentUpon>
@@ -132,6 +172,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-06-18 at 22.57.21_e144fbd9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c8f7bdd3e52c315dafb9641f92672498.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strip-texture-dark-blue-wallpaper-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1680577207-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1220651314-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient-prism-database-mn7r5oitvwwid6yg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_303116781_NH1kEe07K7XLNYksNMF3jqP8QLsh6ucJ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lovepik-modern-technology-wallpaper-background-image_500482213.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-wallpaper-dark-blue-windows-10-logo-background-windows-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-technology-background-template-image_339979.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-fashion-blue-ai-future-technology-background-image_950143.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-blue-glowing-line-circuit-background-image_718715.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-blue-artificial-intelligence-future-technology-background-picture-image_1143086.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OMS-for-Media-Companies-v1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_276959928_MzW1FMER5GDM51fsFgmzjcWHzTeP5UYI.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nahid\\Documents\\New folder\\Shop-Management\\Shop-Management-System\\",
+  "WorkspaceRootPath": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\nahid\\documents\\new folder\\shop-management\\shop-management-system\\projectpp\\dealerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\dealerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|f:\\semester\\6th semester\\c# lab\\pain\\shop-management\\shop-management-system\\projectpp\\admorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\admorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\nahid\\documents\\new folder\\shop-management\\shop-management-system\\projectpp\\salesmanlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|f:\\semester\\6th semester\\c# lab\\pain\\shop-management\\shop-management-system\\projectpp\\admwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\admwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|f:\\semester\\6th semester\\c# lab\\pain\\shop-management\\shop-management-system\\projectpp\\admwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\admwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\projectpp\\adminlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\adminlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|f:\\semester\\6th semester\\c# lab\\pain\\shop-management\\shop-management-system\\projectpp\\adminlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\adminlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|f:\\semester\\6th semester\\c# lab\\pain\\shop-management\\shop-management-system\\projectpp\\admreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\admreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|f:\\semester\\6th semester\\c# lab\\pain\\shop-management\\shop-management-system\\projectpp\\admreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\admreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,38 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DealerLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nahid\\Documents\\New folder\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerLogin.cs",
-              "RelativeDocumentMoniker": "ProjectPP\\DealerLogin.cs",
-              "ToolTip": "C:\\Users\\Nahid\\Documents\\New folder\\Shop-Management\\Shop-Management-System\\ProjectPP\\DealerLogin.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\DealerLogin.cs [Design]",
+              "Title": "Admorder.cs [Design]",
+              "DocumentMoniker": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\Admorder.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\Admorder.cs",
+              "ToolTip": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\Admorder.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\Admorder.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T17:34:25.835Z",
+              "WhenOpened": "2025-06-27T08:12:29.964Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SalesmanLog.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nahid\\Documents\\New folder\\Shop-Management\\Shop-Management-System\\ProjectPP\\SalesmanLog.cs",
-              "RelativeDocumentMoniker": "ProjectPP\\SalesmanLog.cs",
-              "ToolTip": "C:\\Users\\Nahid\\Documents\\New folder\\Shop-Management\\Shop-Management-System\\ProjectPP\\SalesmanLog.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\SalesmanLog.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "admwork.cs",
+              "DocumentMoniker": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\admwork.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\admwork.cs",
+              "ToolTip": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\admwork.cs",
+              "RelativeToolTip": "ProjectPP\\admwork.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T17:05:15.591Z",
+              "WhenOpened": "2025-06-27T08:11:41.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "admwork.cs [Design]",
+              "DocumentMoniker": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\admwork.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\admwork.cs",
+              "ToolTip": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\admwork.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\admwork.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:10:16.212Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "admreg.cs",
+              "DocumentMoniker": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\admreg.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\admreg.cs",
+              "ToolTip": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\admreg.cs",
+              "RelativeToolTip": "ProjectPP\\admreg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:08:24.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "admreg.cs [Design]",
+              "DocumentMoniker": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\admreg.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\admreg.cs",
+              "ToolTip": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\admreg.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\admreg.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:08:13.256Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminLog.cs",
+              "DocumentMoniker": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\AdminLog.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\AdminLog.cs",
+              "ToolTip": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\AdminLog.cs",
+              "RelativeToolTip": "ProjectPP\\AdminLog.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:20:58.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminLog.cs [Design]",
+              "DocumentMoniker": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\AdminLog.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\AdminLog.cs",
+              "ToolTip": "F:\\Semester\\6th Semester\\C# Lab\\pain\\Shop-Management\\Shop-Management-System\\ProjectPP\\AdminLog.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\AdminLog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:20:30.623Z",
               "EditorCaption": " [Design]"
             }
           ]

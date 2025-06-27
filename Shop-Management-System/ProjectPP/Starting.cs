@@ -116,17 +116,19 @@ namespace ProjectPP
 
         private void adminLoginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenLoginForm("Admin");
+            AdminLog admlog = new AdminLog();
+            admlog.Show();
+            this.Hide();
         }
 
         private void salesmanLoginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenLoginForm("Salesman");
+           
         }
 
         private void dealerLoginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenLoginForm("Dealer");
+            
         }
 
         private void OpenLoginForm(string role)
@@ -138,6 +140,11 @@ namespace ProjectPP
             Form1 loginForm = new Form1();
             loginForm.Show();
             this.Hide();
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
